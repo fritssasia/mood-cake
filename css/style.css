@@ -250,7 +250,8 @@ h6,
     transition: .5s;
 }
 
-.product-item:hover {
+
+/* .product-item:hover {
     background: var(--primary) !important;
 }
 
@@ -280,7 +281,7 @@ h6,
 .product-item:hover .product-overlay {
     height: 100%;
     opacity: 1;
-}
+} */
 
 
 /*** Team ***/

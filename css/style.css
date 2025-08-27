@@ -6,6 +6,12 @@
     --dark: #1E1916;
 }
 
+.btn.btn-primary {
+    background-color: #f7b938;
+    border-color: #f7b938;
+}
+
+
 h4,
 h5,
 h6,
@@ -250,6 +256,28 @@ h6,
     transition: .5s;
 }
 
+ul {
+  list-style-type: none; /* hilangkan bullet */
+  margin: 0;             /* hilangkan margin */
+  padding: 0;            /* hilangkan padding */
+}
+
+li {
+  list-style-type: none;
+  padding-left: 0 !important;
+  margin: 0 !important;
+}
+
+#menu .product-item {
+    height: 100%;
+}
+
+#menu .fab {
+    font-size: 25px;
+    line-height: 1;
+    vertical-align:middle;
+    margin-right:6px;
+}
 
 /* .product-item:hover {
     background: var(--primary) !important;

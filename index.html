@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <title>Baker - Bakery Website Template</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
@@ -14,19 +15,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Playfair+Display:wght@600;700&display=swap"
-      rel="stylesheet"
-    />
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet" />
 
     <!-- Icon Font Stylesheet -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
-      rel="stylesheet"
-    />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
 
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet" />
@@ -37,147 +31,123 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
-  </head>
+</head>
 
-  <body>
+<body>
     <!-- Spinner Start -->
-    <div
-      id="spinner"
-      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
-    >
-      <div class="spinner-grow text-primary" role="status"></div>
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" role="status"></div>
     </div>
     <!-- Spinner End -->
 
     <!-- Topbar Start -->
-    <div
-      class="container-fluid top-bar bg-dark text-light px-0 wow fadeIn"
-      data-wow-delay="0.1s"
-    >
-      <div class="row gx-0 align-items-center d-none d-lg-flex">
-        <div class="col-lg-6 px-5 text-start">
-          <ol class="breadcrumb mb-0">
-            <li class="breadcrumb-item">
-              <a class="small text-light" href="#">Home</a>
-            </li>
-            <li class="breadcrumb-item">
-              <a class="small text-light" href="#">Career</a>
-            </li>
-            <li class="breadcrumb-item">
-              <a class="small text-light" href="#">Terms</a>
-            </li>
-            <li class="breadcrumb-item">
-              <a class="small text-light" href="#">Privacy</a>
-            </li>
-          </ol>
+    <div class="container-fluid top-bar bg-dark text-light px-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="row gx-0 align-items-center d-none d-lg-flex">
+            <div class="col-lg-6 px-5 text-start">
+                <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item">
+                        <a class="small text-light" href="#">Home</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a class="small text-light" href="#">Career</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a class="small text-light" href="#">Terms</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a class="small text-light" href="#">Privacy</a>
+                    </li>
+                </ol>
+            </div>
+            <div class="col-lg-6 px-5 text-end">
+                <small>Follow us:</small>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn-lg-square text-primary border-end rounded-0" href=""><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a class="btn-lg-square text-primary border-end rounded-0" href=""><i
+                            class="fab fa-twitter"></i></a>
+                    <a class="btn-lg-square text-primary border-end rounded-0" href=""><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a class="btn-lg-square text-primary pe-0" href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
         </div>
-        <div class="col-lg-6 px-5 text-end">
-          <small>Follow us:</small>
-          <div class="h-100 d-inline-flex align-items-center">
-            <a class="btn-lg-square text-primary border-end rounded-0" href=""
-              ><i class="fab fa-facebook-f"></i
-            ></a>
-            <a class="btn-lg-square text-primary border-end rounded-0" href=""
-              ><i class="fab fa-twitter"></i
-            ></a>
-            <a class="btn-lg-square text-primary border-end rounded-0" href=""
-              ><i class="fab fa-linkedin-in"></i
-            ></a>
-            <a class="btn-lg-square text-primary pe-0" href=""
-              ><i class="fab fa-instagram"></i
-            ></a>
-          </div>
-        </div>
-      </div>
     </div>
     <!-- Topbar End -->
 
     <!-- Navbar Start -->
-    <nav
-      class="navbar navbar-expand-lg navbar-dark fixed-top py-lg-0 px-lg-5 wow fadeIn"
-      data-wow-delay="0.1s"
-    >
-      <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
-        <h1 class="text-primary m-0">Baker</h1>
-      </a>
-      <button
-        type="button"
-        class="navbar-toggler me-4"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarCollapse"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <div class="navbar-nav mx-auto p-4 p-lg-0">
-          <a href="#home" class="nav-item nav-link active">Beranda</a>
-          <a href="#about-us" class="nav-item nav-link">Tentang Kami</a>
-          <a href="#menu" class="nav-item nav-link">Daftar Menu</a>
-          <a href="#location" class="nav-item nav-link">Lokasi</a>
-          <a href="#testimonial" class="nav-item nav-link">Testimoni</a>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+        <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+            <h1 class="text-primary m-0">Baker</h1>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav mx-auto p-4 p-lg-0">
+                <a href="#home" class="nav-item nav-link active">Beranda</a>
+                <a href="#about-us" class="nav-item nav-link">Tentang Kami</a>
+                <a href="#menu" class="nav-item nav-link">Daftar Menu</a>
+                <a href="#location" class="nav-item nav-link">Lokasi</a>
+                <a href="#testimonial" class="nav-item nav-link">Testimoni</a>
+            </div>
+            <div class="d-none d-lg-flex">
+                <div class="flex-shrink-0 btn-lg-square border border-light rounded-circle">
+                    <i class="fa fa-phone text-primary"></i>
+                </div>
+                <div class="ps-3">
+                    <small class="text-primary mb-0">Hubungi Kami</small>
+                    <p class="text-light fs-5 mb-0">+012 345 6789</p>
+                </div>
+            </div>
         </div>
-        <div class="d-none d-lg-flex">
-          <div
-            class="flex-shrink-0 btn-lg-square border border-light rounded-circle"
-          >
-            <i class="fa fa-phone text-primary"></i>
-          </div>
-          <div class="ps-3">
-            <small class="text-primary mb-0">Hubungi Kami</small>
-            <p class="text-light fs-5 mb-0">+012 345 6789</p>
-          </div>
-        </div>
-      </div>
     </nav>
     <!-- Navbar End -->
 
     <!-- Carousel Start -->
     <div class="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s" id="home">
-      <div class="owl-carousel header-carousel position-relative">
-        <div class="owl-carousel-item position-relative">
-          <img class="img-fluid" src="img/bg-cd.png" alt="" />
-          <div class="owl-carousel-inner">
-            <div class="container">
-              <div class="row justify-content-start">
-                <div class="col-lg-8">
-                  <p class="text-primary text-uppercase fw-bold mb-2">
-                    // cheesecake kekinian asal Manado
-                  </p>
-                  <h1 class="display-1 text-light mb-4 animated slideInDown">
-                    EVERY BITE A BETTER MOOD
-                  </h1>
-                  <p class="text-light fs-5 mb-4 pb-3">
-                    Comfort food favorit buat balikin mood kamu ✨
-                  </p>
-                  <a href="" class="btn btn-primary rounded-pill py-3 px-5"
-                    >Daftar Menu</a
-                  >
+        <div class="owl-carousel header-carousel position-relative">
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/bg-cd.png" alt="" />
+                <div class="owl-carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-lg-8">
+                                <p class="text-primary text-uppercase fw-bold mb-2">
+                                    // cheesecake kekinian asal Manado
+                                </p>
+                                <h1 class="display-1 text-light mb-4 animated slideInDown">
+                                    EVERY BITE A BETTER MOOD
+                                </h1>
+                                <p class="text-light fs-5 mb-4 pb-3">
+                                    Comfort food favorit buat balikin mood kamu ✨
+                                </p>
+                                <a href="" class="btn btn-primary rounded-pill py-3 px-5">Daftar Menu</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-        </div>
-        <div class="owl-carousel-item position-relative">
-          <img class="img-fluid" src="img/bg-img-2.png" alt="" />
-          <div class="owl-carousel-inner">
-            <div class="container">
-              <div class="row justify-content-start">
-                <div class="col-lg-8">
-                  <p class="text-primary text-uppercase fw-bold mb-2">
-                    // Rasa premium dengan harga ramah di kantong
-                  </p>
-                  <h1 class="display-1 text-light mb-4 animated slideInDown">
-                    Tiga Varian Rasa Andalan
-                  </h1>
-                  <a href="" class="btn btn-primary rounded-pill py-3 px-5"
-                    >Read More</a
-                  >
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/bg-img-2.png" alt="" />
+                <div class="owl-carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-lg-8">
+                                <p class="text-primary text-uppercase fw-bold mb-2">
+                                    // Rasa premium dengan harga ramah di kantong
+                                </p>
+                                <h1 class="display-1 text-light mb-4 animated slideInDown">
+                                    Tiga Varian Rasa Andalan
+                                </h1>
+                                <a href="" class="btn btn-primary rounded-pill py-3 px-5">Read More</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
     <!-- Carousel End -->
 
@@ -220,186 +190,168 @@
 
     <!-- About Start -->
     <div class="container-xxl py-6" id="about-us">
-      <div class="container">
-        <div class="row g-5">
-          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="row img-twice position-relative h-100">
-              <div class="col-6">
-                <img class="img-fluid rounded" src="img/about-1.jpg" alt="" />
-              </div>
-              <div class="col-6 align-self-end">
-                <img class="img-fluid rounded" src="img/about-2.jpg" alt="" />
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-            <div class="h-100">
-              <p class="text-primary text-uppercase mb-2">// Tentang Kami</p>
-              <h1 class="display-6 mb-4">EVERY BITE A BETTER MOOD</h1>
-              <p class="mb-3">
-                Mood Cake adalah brand cheesecake kekinian asal Manado yang
-                percaya: mood bisa berubah jadi lebih baik hanya dengan
-                cheesecake yang tepat — lembut, creamy, dan selalu bikin nagih.
-                Kita tahu, anak muda sering banget ngalamin mood swing. Nah,
-                Mood Cake hadir sebagai comfort food favorit buat balikin mood
-                kamu. Bukan cuma buat diri sendiri, cheesecake Mood Cake juga
-                cocok jadi random gift buat pacar yang lagi ngambek biar
-                langsung luluh dan manis lagi 🥰. Kamu bisa pilih 3 varian rasa
-                favorit
-              </p>
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="row img-twice position-relative h-100">
+                        <div class="col-6">
+                            <img class="img-fluid rounded" src="img/about-1.jpg" alt="" />
+                        </div>
+                        <div class="col-6 align-self-end">
+                            <img class="img-fluid rounded" src="img/about-2.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="h-100">
+                        <p class="text-primary text-uppercase mb-2">// Tentang Kami</p>
+                        <h1 class="display-6 mb-4">EVERY BITE A BETTER MOOD</h1>
+                        <p class="mb-3">
+                            Mood Cake adalah brand cheesecake kekinian asal Manado yang
+                            percaya: mood bisa berubah jadi lebih baik hanya dengan
+                            cheesecake yang tepat — lembut, creamy, dan selalu bikin nagih.
+                            Kita tahu, anak muda sering banget ngalamin mood swing. Nah,
+                            Mood Cake hadir sebagai comfort food favorit buat balikin mood
+                            kamu. Bukan cuma buat diri sendiri, cheesecake Mood Cake juga
+                            cocok jadi random gift buat pacar yang lagi ngambek biar
+                            langsung luluh dan manis lagi 🥰. Kamu bisa pilih 3 varian rasa
+                            favorit
+                        </p>
 
-              <p class="mb-0">✨ 3 Varian Rasa Andalan:</p>
-              <ul>
-                <li>
-                  🍰 Original – Klasik dan elegan, cheesecake lembut yang bikin
-                  hati adem.
-                </li>
-                <li>
-                  🍫 Cadbury – Cheesecake cokelat creamy, mood booster terbaik
-                  buat pecinta cokelat.
-                </li>
-                <li>
-                  🍪 Lotus – Perpaduan manis legit dengan crumble lotus, cocok
-                  buat kamu yang suka manis dengan twist unik.
-                </li>
-              </ul>
-              <div class="row g-2 pt-3 mb-4">
-                <div class="col-sm-6">
-                  <i class="fa fa-check text-primary me-2"></i>Produk
-                  Berkualitas
+                        <p class="mb-0">✨ 3 Varian Rasa Andalan:</p>
+                        <ul>
+                            <li>
+                                🍰 Original – Klasik dan elegan, cheesecake lembut yang bikin
+                                hati adem.
+                            </li>
+                            <li>
+                                🍫 Cadbury – Cheesecake cokelat creamy, mood booster terbaik
+                                buat pecinta cokelat.
+                            </li>
+                            <li>
+                                🍪 Lotus – Perpaduan manis legit dengan crumble lotus, cocok
+                                buat kamu yang suka manis dengan twist unik.
+                            </li>
+                        </ul>
+                        <div class="row g-2 pt-3 mb-4">
+                            <div class="col-sm-6">
+                                <i class="fa fa-check text-primary me-2"></i>Produk
+                                Berkualitas
+                            </div>
+                            <div class="col-sm-6">
+                                <i class="fa fa-check text-primary me-2"></i>Custom Products
+                            </div>
+                            <div class="col-sm-6">
+                                <i class="fa fa-check text-primary me-2"></i>Bisa Order Online
+                            </div>
+                            <div class="col-sm-6">
+                                <i class="fa fa-check text-primary me-2"></i>Home Delivery
+                            </div>
+                        </div>
+                        <a class="btn btn-primary rounded-pill py-3 px-5" href="">Daftar Menu</a>
+                    </div>
                 </div>
-                <div class="col-sm-6">
-                  <i class="fa fa-check text-primary me-2"></i>Custom Products
-                </div>
-                <div class="col-sm-6">
-                  <i class="fa fa-check text-primary me-2"></i>Bisa Order Online
-                </div>
-                <div class="col-sm-6">
-                  <i class="fa fa-check text-primary me-2"></i>Home Delivery
-                </div>
-              </div>
-              <a class="btn btn-primary rounded-pill py-3 px-5" href=""
-                >Daftar Menu</a
-              >
             </div>
-          </div>
         </div>
-      </div>
     </div>
     <!-- About End -->
 
     <!-- Service Start -->
     <div class="container-xxl py-6">
-      <div class="container">
-        <div class="row g-5">
-          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-            <!-- <p class="text-primary text-uppercase mb-2">// Our Services</p> -->
-            <h1 class="display-6 mb-4">💡 Kenapa harus Mood Cake?</h1>
-            <p class="mb-5">
-              Rasa premium dengan harga ramah di kantong. Cocok buat me-time,
-              hangout, atau kasih kejutan manis ke orang tersayang. Relatable,
-              kekinian, dan pastinya instagrammable!📸
-            </p>
-            <p>🛵 Cara nikmatin Mood Cake:</p>
-            <ul>
-              <li>
-                Dine-in – nongkrong santai sambil nikmatin cheesecake favorit.
-              </li>
-              <li>
-                Takeaway – bawa pulang dan jadiin teman nugas atau santai di
-                rumah.
-              </li>
-              <li>
-                Delivery – tinggal klik, cheesecake manis langsung sampai ke
-                pintu kamu.
-              </li>
-            </ul>
-            <p>
-              📍 Lokasi: Kawasan Megamas Blok 7 No.12A & No.14, Ruko Mega Smart
-              Manado
-            </p>
-            <p>
-              📱 Order sekarang via: WhatsApp | GrabFood | DM Instagram |
-              Kunjungi langsung
-            </p>
-            <div class="row gy-5 gx-4">
-              <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
-                <div class="d-flex align-items-center mb-3">
-                  <div
-                    class="flex-shrink-0 btn-square bg-primary rounded-circle me-3"
-                  >
-                    <i class="fa fa-bread-slice text-white"></i>
-                  </div>
-                  <h5 class="mb-0">Quality Products</h5>
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <!-- <p class="text-primary text-uppercase mb-2">// Our Services</p> -->
+                    <h1 class="display-6 mb-4">💡 Kenapa harus Mood Cake?</h1>
+                    <p class="mb-5">
+                        Rasa premium dengan harga ramah di kantong. Cocok buat me-time,
+                        hangout, atau kasih kejutan manis ke orang tersayang. Relatable,
+                        kekinian, dan pastinya instagrammable!📸
+                    </p>
+                    <p>🛵 Cara nikmatin Mood Cake:</p>
+                    <ul>
+                        <li>
+                            Dine-in – nongkrong santai sambil nikmatin cheesecake favorit.
+                        </li>
+                        <li>
+                            Takeaway – bawa pulang dan jadiin teman nugas atau santai di
+                            rumah.
+                        </li>
+                        <li>
+                            Delivery – tinggal klik, cheesecake manis langsung sampai ke
+                            pintu kamu.
+                        </li>
+                    </ul>
+                    <p>
+                        📍 Lokasi: Kawasan Megamas Blok 7 No.12A & No.14, Ruko Mega Smart
+                        Manado
+                    </p>
+                    <p>
+                        📱 Order sekarang via: WhatsApp | GrabFood | DM Instagram |
+                        Kunjungi langsung
+                    </p>
+                    <div class="row gy-5 gx-4">
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <i class="fa fa-bread-slice text-white"></i>
+                                </div>
+                                <h5 class="mb-0">Quality Products</h5>
+                            </div>
+                            <span>Magna sea eos sit dolor, ipsum amet ipsum lorem diam
+                                eos</span>
+                        </div>
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.2s">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <i class="fa fa-birthday-cake text-white"></i>
+                                </div>
+                                <h5 class="mb-0">Custom Products</h5>
+                            </div>
+                            <span>Magna sea eos sit dolor, ipsum amet ipsum lorem diam
+                                eos</span>
+                        </div>
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <i class="fa fa-cart-plus text-white"></i>
+                                </div>
+                                <h5 class="mb-0">Online Order</h5>
+                            </div>
+                            <span>Magna sea eos sit dolor, ipsum amet ipsum lorem diam
+                                eos</span>
+                        </div>
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <i class="fa fa-truck text-white"></i>
+                                </div>
+                                <h5 class="mb-0">Home Delivery</h5>
+                            </div>
+                            <span>Magna sea eos sit dolor, ipsum amet ipsum lorem diam
+                                eos</span>
+                        </div>
+                    </div>
                 </div>
-                <span
-                  >Magna sea eos sit dolor, ipsum amet ipsum lorem diam
-                  eos</span
-                >
-              </div>
-              <div class="col-sm-6 wow fadeIn" data-wow-delay="0.2s">
-                <div class="d-flex align-items-center mb-3">
-                  <div
-                    class="flex-shrink-0 btn-square bg-primary rounded-circle me-3"
-                  >
-                    <i class="fa fa-birthday-cake text-white"></i>
-                  </div>
-                  <h5 class="mb-0">Custom Products</h5>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="row img-twice position-relative h-100">
+                        <div class="col-6">
+                            <img class="img-fluid rounded" src="img/service-1.jpg" alt="" />
+                        </div>
+                        <div class="col-6 align-self-end">
+                            <img class="img-fluid rounded" src="img/service-2.jpg" alt="" />
+                        </div>
+                    </div>
                 </div>
-                <span
-                  >Magna sea eos sit dolor, ipsum amet ipsum lorem diam
-                  eos</span
-                >
-              </div>
-              <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
-                <div class="d-flex align-items-center mb-3">
-                  <div
-                    class="flex-shrink-0 btn-square bg-primary rounded-circle me-3"
-                  >
-                    <i class="fa fa-cart-plus text-white"></i>
-                  </div>
-                  <h5 class="mb-0">Online Order</h5>
-                </div>
-                <span
-                  >Magna sea eos sit dolor, ipsum amet ipsum lorem diam
-                  eos</span
-                >
-              </div>
-              <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
-                <div class="d-flex align-items-center mb-3">
-                  <div
-                    class="flex-shrink-0 btn-square bg-primary rounded-circle me-3"
-                  >
-                    <i class="fa fa-truck text-white"></i>
-                  </div>
-                  <h5 class="mb-0">Home Delivery</h5>
-                </div>
-                <span
-                  >Magna sea eos sit dolor, ipsum amet ipsum lorem diam
-                  eos</span
-                >
-              </div>
             </div>
-          </div>
-          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-            <div class="row img-twice position-relative h-100">
-              <div class="col-6">
-                <img class="img-fluid rounded" src="img/service-1.jpg" alt="" />
-              </div>
-              <div class="col-6 align-self-end">
-                <img class="img-fluid rounded" src="img/service-2.jpg" alt="" />
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
     </div>
     <!-- Service End -->
 
     <!-- Product Start -->
     <div class="container-xxl bg-light my-6 py-6 pt-0" id="menu">
-      <div class="container">
-        <!-- <div class="bg-primary text-light rounded-bottom p-5 my-6 mt-0 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <!-- <div class="bg-primary text-light rounded-bottom p-5 my-6 mt-0 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="row g-4 align-items-center">
                     <div class="col-lg-6">
                         <h1 class="display-4 text-light mb-0">The Best Bakery In Your City</h1>
@@ -415,128 +367,110 @@
                     </div>
                 </div>
             </div> -->
-        <div
-          class="text-center mx-auto mb-5 wow fadeInUp"
-          data-wow-delay="0.1s"
-          style="max-width: 500px"
-        >
-          <p class="text-primary text-uppercase mb-2 pt-5">
-            // Mau Varian Apa?
-          </p>
-          <h1 class="display-6 mb-4">Mood Cake</h1>
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px">
+                <p class="text-primary text-uppercase mb-2 pt-5">
+                    // Mau Varian Apa?
+                </p>
+                <h1 class="display-6 mb-4">Mood Cake</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-item d-flex flex-column bg-white rounded overflow-hidden">
+                        <div class="text-center pt-3">
+                            <h3 class="mb-3">Original<br />Cheesecake</h3>
+                        </div>
+                        <div class="position-relative mt-auto pb-3">
+                            <img class="img-fluid" src="img/menu/moodcake-original.png" alt="" />
+                            <div class="product-overlay text-center">
+                                <div class="text-center p-3">
+                                    <div class="d-inline-block">
+                                        <p class="">
+                                            Klasik dan elegan, cheesecake lembut yang bikin hati
+                                            adem.
+                                        </p>
+                                    </div>
+                                    <div class="d-inline-block border border-primary rounded-pill pt-1 px-3 mb-3">
+                                        Fullsize : Rp. 224.000
+                                    </div>
+                                    <br>
+                                    <div class="d-inline-block border border-primary rounded-pill pt-1 px-3 mb-3">
+                                        Per Slice : Rp. 29.000
+                                    </div>
+                                    <div class="pt-2">
+                                        <a class="btn btn-primary rounded-pill py-3 px-5"
+                                            href="https://wa.me/6281294479953?text=Halo%20saya%20mau%20order%20MoodCake%20🍰%0A%0A📝%20Detail%20Pesanan:%0AVarian%20%20%20%20%20%20:%0AUkuran%20%20%20%20%20%20:%20Fullsize%20/%20Per%20Slice%0AJumlah%20%20%20%20%20%20:%0A%0A📍%20Alamat%20%20%20%20:%0A📞%20Kontak%20%20%20%20:%0A%0ATerima%20kasih%20🙏"
+                                            target="_blank"><i class="fab fa-whatsapp"></i>Order Sekarang</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-item d-flex flex-column bg-white rounded overflow-hidden">
+                        <div class="text-center pt-3">
+                            <h3 class="mb-3">Cadbury<br />Cheesecake</h3>
+                        </div>
+                        <div class="position-relative mt-auto pb-3">
+                            <img class="img-fluid" src="img/menu/moodcake-cadbury.png" alt="" />
+                            <div class="product-overlay text-center">
+                                <div class="text-center p-3">
+                                    <div class="d-inline-block">
+                                        <p class="">
+                                            Cheesecake cokelat creamy, mood booster terbaik buat pecinta cokelat.
+                                        </p>
+                                    </div>
+                                    <div class="d-inline-block border border-primary rounded-pill pt-1 px-3 mb-3">
+                                        Fullsize : Rp. 272.000
+                                    </div>
+                                    <br>
+                                    <div class="d-inline-block border border-primary rounded-pill pt-1 px-3 mb-3">
+                                        Per Slice : Rp. 34.000
+                                    </div>
+                                    <div class="pt-2">
+                                        <a class="btn btn-primary rounded-pill py-3 px-5"
+                                            href="https://wa.me/6281294479953?text=Halo%20saya%20mau%20order%20MoodCake%20🍰%0A%0A📝%20Detail%20Pesanan:%0AVarian%20%20%20%20%20%20:%0AUkuran%20%20%20%20%20%20:%20Fullsize%20/%20Per%20Slice%0AJumlah%20%20%20%20%20%20:%0A%0A📍%20Alamat%20%20%20%20:%0A📞%20Kontak%20%20%20%20:%0A%0ATerima%20kasih%20🙏"
+                                            target="_blank"><i class="fab fa-whatsapp"></i>Order Sekarang</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-item d-flex flex-column bg-white rounded overflow-hidden">
+                        <div class="text-center pt-3">
+                            <h3 class="mb-3">Lotus<br />Cheesecake</h3>
+                        </div>
+                        <div class="position-relative mt-auto pb-3">
+                            <img class="img-fluid" src="img/menu/moodcake-lotus.png" alt="" />
+                            <div class="product-overlay text-center">
+                                <div class="text-center p-3">
+                                    <div class="d-inline-block">
+                                        <p class="">
+                                            Perpaduan manis legit dengan crumble lotus, cocok buat kamu yang suka manis
+                                            dengan twist unik.
+                                        </p>
+                                    </div>
+                                    <div class="d-inline-block border border-primary rounded-pill pt-1 px-3 mb-3">
+                                        Fullsize : Rp 280.000
+                                    </div>
+                                    <br>
+                                    <div class="d-inline-block border border-primary rounded-pill pt-1 px-3 mb-3">
+                                        Per Slice : Rp. 36.000
+                                    </div>
+                                    <div class="pt-2">
+                                        <a class="btn btn-primary rounded-pill py-3 px-5"
+                                            href="https://wa.me/6281294479953?text=Halo%20saya%20mau%20order%20MoodCake%20🍰%0A%0A📝%20Detail%20Pesanan:%0AVarian%20%20%20%20%20%20:%0AUkuran%20%20%20%20%20%20:%20Fullsize%20/%20Per%20Slice%0AJumlah%20%20%20%20%20%20:%0A%0A📍%20Alamat%20%20%20%20:%0A📞%20Kontak%20%20%20%20:%0A%0ATerima%20kasih%20🙏"
+                                            target="_blank"><i class="fab fa-whatsapp"></i>Order Sekarang</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="row g-4">
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-            <div
-              class="product-item d-flex flex-column bg-white rounded overflow-hidden"
-            >
-              <div class="text-center pt-3">
-                <h3 class="mb-3">Original<br />Cheesecake</h3>
-              </div>
-              <div class="position-relative mt-auto pb-3">
-                <img class="img-fluid" src="img/menu/moodcake-original.png" alt="" />
-                <div class="product-overlay text-center">
-                  <div class="text-center p-3">
-                    <div class="d-inline-block">
-                      <p class="">
-                        Klasik dan elegan, cheesecake lembut yang bikin hati
-                        adem.
-                      </p>
-                    </div>
-                    <div
-                      class="d-inline-block border border-primary rounded-pill pt-1 px-3 mb-3"
-                    >
-                      Fullsize : Rp. 224.000
-                    </div>
-                    <br>
-                    <div
-                      class="d-inline-block border border-primary rounded-pill pt-1 px-3 mb-3"
-                    >
-                      Per Slice : Rp. 29.000
-                    </div>
-                    <div class="pt-2">
-                      <a class="btn btn-primary rounded-pill py-3 px-5" href="https://wa.me/6281294479953?text=Halo%20saya%20mau%20order%20MoodCake%20🍰%0A%0A📝%20Detail%20Pesanan:%0AVarian%20%20%20%20%20%20:%0AUkuran%20%20%20%20%20%20:%20Fullsize%20/%20Per%20Slice%0AJumlah%20%20%20%20%20%20:%0A%0A📍%20Alamat%20%20%20%20:%0A📞%20Kontak%20%20%20%20:%0A%0ATerima%20kasih%20🙏" 
-   target="_blank"><i class="fab fa-whatsapp"></i>Order Sekarang</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-            <div
-              class="product-item d-flex flex-column bg-white rounded overflow-hidden"
-            >
-              <div class="text-center pt-3">
-                <h3 class="mb-3">Cadbury<br />Cheesecake</h3>
-              </div>
-              <div class="position-relative mt-auto pb-3">
-                <img class="img-fluid" src="img/menu/moodcake-cadbury.png" alt="" />
-                <div class="product-overlay text-center">
-                  <div class="text-center p-3">
-                    <div class="d-inline-block">
-                      <p class="">
-                        Cheesecake cokelat creamy, mood booster terbaik buat pecinta cokelat.
-                      </p>
-                    </div>
-                    <div
-                      class="d-inline-block border border-primary rounded-pill pt-1 px-3 mb-3"
-                    >
-                      Fullsize : Rp. 272.000
-                    </div>
-                    <br>
-                    <div
-                      class="d-inline-block border border-primary rounded-pill pt-1 px-3 mb-3"
-                    >
-                      Per Slice : Rp. 34.000
-                    </div>
-                    <div class="pt-2">
-                      <a class="btn btn-primary rounded-pill py-3 px-5" href="https://wa.me/6281294479953?text=Halo%20saya%20mau%20order%20MoodCake%20🍰%0A%0A📝%20Detail%20Pesanan:%0AVarian%20%20%20%20%20%20:%0AUkuran%20%20%20%20%20%20:%20Fullsize%20/%20Per%20Slice%0AJumlah%20%20%20%20%20%20:%0A%0A📍%20Alamat%20%20%20%20:%0A📞%20Kontak%20%20%20%20:%0A%0ATerima%20kasih%20🙏" 
-   target="_blank"><i class="fab fa-whatsapp"></i>Order Sekarang</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-            <div
-              class="product-item d-flex flex-column bg-white rounded overflow-hidden"
-            >
-              <div class="text-center pt-3">
-                <h3 class="mb-3">Lotus<br />Cheesecake</h3>
-              </div>
-              <div class="position-relative mt-auto pb-3">
-                <img class="img-fluid" src="img/menu/moodcake-lotus.png" alt="" />
-                <div class="product-overlay text-center">
-                  <div class="text-center p-3">
-                    <div class="d-inline-block">
-                      <p class="">
-                        Perpaduan manis legit dengan crumble lotus, cocok buat kamu yang suka manis dengan twist unik.
-                      </p>
-                    </div>
-                    <div
-                      class="d-inline-block border border-primary rounded-pill pt-1 px-3 mb-3"
-                    >
-                      Fullsize : Rp 280.000
-                    </div>
-                    <br>
-                    <div
-                      class="d-inline-block border border-primary rounded-pill pt-1 px-3 mb-3"
-                    >
-                      Per Slice : Rp. 36.000
-                    </div>
-                    <div class="pt-2">
-                      <a class="btn btn-primary rounded-pill py-3 px-5" href="https://wa.me/6281294479953?text=Halo%20saya%20mau%20order%20MoodCake%20🍰%0A%0A📝%20Detail%20Pesanan:%0AVarian%20%20%20%20%20%20:%0AUkuran%20%20%20%20%20%20:%20Fullsize%20/%20Per%20Slice%0AJumlah%20%20%20%20%20%20:%0A%0A📍%20Alamat%20%20%20%20:%0A📞%20Kontak%20%20%20%20:%0A%0ATerima%20kasih%20🙏" 
-   target="_blank"><i class="fab fa-whatsapp"></i>Order Sekarang</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
     <!-- Product End -->
 
@@ -714,118 +648,86 @@
 
     <!-- Google Map Start -->
     <div class="container-xxl py-6 px-0 wow fadeInUp" data-wow-delay="0.1s" id="location">
-      <div
-        class="text-center mx-auto mb-5 wow fadeInUp"
-        data-wow-delay="0.1s"
-      >
-      <p class="text-primary text-uppercase mb-2 pt-5">
-            // Kunjungi Langsung
-          </p>
-        <h1 class="display-6 mb-4">Lokasi Kami</h1>
-        <p class="mb-0">📍 Kawasan Megamas Blok 7 No.12A & No.14, Ruko Mega Smart Manado</p>
-      </div>
-      <iframe
-        class="w-100 mb-n2"
-        style="height: 450px"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20087.88799123309!2d124.80660096220622!3d1.4758238768341196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x328775210bc4283d%3A0x670cdd279400252f!2sKawasan%20Megamas%20Manado!5e1!3m2!1sid!2sid!4v1756206691869!5m2!1sid!2sid"
-        frameborder="0"
-        allowfullscreen=""
-        aria-hidden="false"
-        tabindex="0"
-      ></iframe>
-      <div class="text-center pt-4">
-        <button class="btn btn-primary rounded-pill py-3 px-5">
-          <a href="http://" class="text-white">Klik Disini</a>
-        </button>
-      </div>
+        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s">
+            <p class="text-primary text-uppercase mb-2 pt-5">
+                // Kunjungi Langsung
+            </p>
+            <h1 class="display-6 mb-4">Lokasi Kami</h1>
+            <p class="mb-0">📍 Kawasan Megamas Blok 7 No.12A & No.14, Ruko Mega Smart Manado</p>
+        </div>
+        <iframe class="w-100 mb-n2" style="height: 450px"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20087.88799123309!2d124.80660096220622!3d1.4758238768341196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x328775210bc4283d%3A0x670cdd279400252f!2sKawasan%20Megamas%20Manado!5e1!3m2!1sid!2sid!4v1756206691869!5m2!1sid!2sid"
+            frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <div class="text-center pt-4">
+            <button class="btn btn-primary rounded-pill py-3 px-5">
+                <a href="http://" class="text-white">Klik Disini</a>
+            </button>
+        </div>
     </div>
     <!-- Google Map End -->
 
     <!-- Testimonial Start -->
     <div class="container-xxl bg-light my-6 py-6 pb-0" id="testimonial">
-      <div class="container">
-        <div
-          class="text-center mx-auto mb-5 wow fadeInUp"
-          data-wow-delay="0.1s"
-          style="max-width: 500px"
-        >
-          <p class="text-primary text-uppercase mb-2">// Apa kata mereka?</p>
-          <h1 class="display-6 mb-4">Testimoni</h1>
-        </div>
-        <div
-          class="owl-carousel testimonial-carousel wow fadeInUp"
-          data-wow-delay="0.1s"
-        >
-          <div class="testimonial-item bg-white rounded p-4">
-            <div class="d-flex align-items-center mb-4">
-              <img
-                class="flex-shrink-0 rounded-circle border p-1"
-                src="img/testimonial-1.jpg"
-                alt=""
-              />
-              <div class="ms-4">
-                <h5 class="mb-1">Client Name</h5>
-                <span>Profession</span>
-              </div>
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px">
+                <p class="text-primary text-uppercase mb-2">// Apa kata mereka?</p>
+                <h1 class="display-6 mb-4">Testimoni</h1>
             </div>
-            <p class="mb-0">
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam
-              amet diam et eos. Clita erat ipsum et lorem et sit.
-            </p>
-          </div>
-          <div class="testimonial-item bg-white rounded p-4">
-            <div class="d-flex align-items-center mb-4">
-              <img
-                class="flex-shrink-0 rounded-circle border p-1"
-                src="img/testimonial-2.jpg"
-                alt=""
-              />
-              <div class="ms-4">
-                <h5 class="mb-1">Client Name</h5>
-                <span>Profession</span>
-              </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item bg-white rounded p-4">
+                    <div class="d-flex align-items-center mb-4">
+                        <img class="flex-shrink-0 rounded-circle border p-1" src="img/testimonial-1.jpg" alt="" />
+                        <div class="ms-4">
+                            <h5 class="mb-1">Client Name</h5>
+                            <span>Profession</span>
+                        </div>
+                    </div>
+                    <p class="mb-0">
+                        Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam
+                        amet diam et eos. Clita erat ipsum et lorem et sit.
+                    </p>
+                </div>
+                <div class="testimonial-item bg-white rounded p-4">
+                    <div class="d-flex align-items-center mb-4">
+                        <img class="flex-shrink-0 rounded-circle border p-1" src="img/testimonial-2.jpg" alt="" />
+                        <div class="ms-4">
+                            <h5 class="mb-1">Client Name</h5>
+                            <span>Profession</span>
+                        </div>
+                    </div>
+                    <p class="mb-0">
+                        Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam
+                        amet diam et eos. Clita erat ipsum et lorem et sit.
+                    </p>
+                </div>
+                <div class="testimonial-item bg-white rounded p-4">
+                    <div class="d-flex align-items-center mb-4">
+                        <img class="flex-shrink-0 rounded-circle border p-1" src="img/testimonial-3.jpg" alt="" />
+                        <div class="ms-4">
+                            <h5 class="mb-1">Client Name</h5>
+                            <span>Profession</span>
+                        </div>
+                    </div>
+                    <p class="mb-0">
+                        Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam
+                        amet diam et eos. Clita erat ipsum et lorem et sit.
+                    </p>
+                </div>
+                <div class="testimonial-item bg-white rounded p-4">
+                    <div class="d-flex align-items-center mb-4">
+                        <img class="flex-shrink-0 rounded-circle border p-1" src="img/testimonial-4.jpg" alt="" />
+                        <div class="ms-4">
+                            <h5 class="mb-1">Client Name</h5>
+                            <span>Profession</span>
+                        </div>
+                    </div>
+                    <p class="mb-0">
+                        Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam
+                        amet diam et eos. Clita erat ipsum et lorem et sit.
+                    </p>
+                </div>
             </div>
-            <p class="mb-0">
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam
-              amet diam et eos. Clita erat ipsum et lorem et sit.
-            </p>
-          </div>
-          <div class="testimonial-item bg-white rounded p-4">
-            <div class="d-flex align-items-center mb-4">
-              <img
-                class="flex-shrink-0 rounded-circle border p-1"
-                src="img/testimonial-3.jpg"
-                alt=""
-              />
-              <div class="ms-4">
-                <h5 class="mb-1">Client Name</h5>
-                <span>Profession</span>
-              </div>
-            </div>
-            <p class="mb-0">
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam
-              amet diam et eos. Clita erat ipsum et lorem et sit.
-            </p>
-          </div>
-          <div class="testimonial-item bg-white rounded p-4">
-            <div class="d-flex align-items-center mb-4">
-              <img
-                class="flex-shrink-0 rounded-circle border p-1"
-                src="img/testimonial-4.jpg"
-                alt=""
-              />
-              <div class="ms-4">
-                <h5 class="mb-1">Client Name</h5>
-                <span>Profession</span>
-              </div>
-            </div>
-            <p class="mb-0">
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam
-              amet diam et eos. Clita erat ipsum et lorem et sit.
-            </p>
-          </div>
-        </div>
-        <!-- <div class="bg-primary text-light rounded-top p-5 my-6 mb-0 wow fadeInUp" data-wow-delay="0.1s">
+            <!-- <div class="bg-primary text-light rounded-top p-5 my-6 mb-0 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="row align-items-center">
                     <div class="col-md-6">
                         <h1 class="display-4 text-light mb-0">Subscribe Our Newsletter</h1>
@@ -838,89 +740,63 @@
                     </div>
                 </div>
             </div> -->
-      </div>
+        </div>
     </div>
     <!-- Testimonial End -->
 
     <!-- Footer Start -->
-    <div
-      class="container-fluid bg-dark text-light footer my-6 mb-0 py-5 wow fadeIn"
-      data-wow-delay="0.1s"
-    >
-      <div class="container py-5">
-        <div class="d-inline-block text-center w-100">
-          <div class="text-center">
-            <h4 class="text-light mb-4">Alamat</h4>
-            <p class="mb-2">
-              <i class="fa fa-map-marker-alt me-3"></i>Kawasan Megamas Blok 7
-              No.12A & No.14, Ruko Mega Smart Manado
-            </p>
-            <p class="mb-2">
-              <i class="fa fa-phone-alt me-3"></i>+012 345 67890
-            </p>
-            <p class="mb-2">
-              <i class="fa fa-envelope me-3"></i>info@example.com
-            </p>
-            <div class="d-flex pt-2 justify-content-center">
-              <a
-                class="btn btn-square btn-outline-light rounded-circle me-1"
-                href=""
-                ><i class="fab fa-twitter"></i
-              ></a>
-              <a
-                class="btn btn-square btn-outline-light rounded-circle me-1"
-                href=""
-                ><i class="fab fa-facebook-f"></i
-              ></a>
-              <a
-                class="btn btn-square btn-outline-light rounded-circle me-1"
-                href=""
-                ><i class="fab fa-youtube"></i
-              ></a>
-              <a
-                class="btn btn-square btn-outline-light rounded-circle me-0"
-                href=""
-                ><i class="fab fa-linkedin-in"></i
-              ></a>
+    <div class="container-fluid bg-dark text-light footer my-6 mb-0 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="d-inline-block text-center w-100">
+                <div class="text-center">
+                    <h4 class="text-light mb-4">Alamat</h4>
+                    <p class="mb-2">
+                        <i class="fa fa-map-marker-alt me-3"></i>Kawasan Megamas Blok 7
+                        No.12A & No.14, Ruko Mega Smart Manado
+                    </p>
+                    <p class="mb-2">
+                        <i class="fa fa-phone-alt me-3"></i>+012 345 67890
+                    </p>
+                    <p class="mb-2">
+                        <i class="fa fa-envelope me-3"></i>info@example.com
+                    </p>
+                    <div class="d-flex pt-2 justify-content-center">
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i
+                                class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i
+                                class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-0" href=""><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
     <!-- Footer End -->
 
     <!-- Copyright Start -->
-    <div
-      class="container-fluid copyright text-light py-4 wow fadeIn"
-      data-wow-delay="0.1s"
-    >
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-            &copy; <a href="#">moodcake.com</a>, All Right Reserved.
-          </div>
-          <div class="col-md-6 text-center text-md-end">
-            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-            Designed By <a href="https://htmlcodex.com">HTML Codex</a>
-            <br />Distributed By:
-            <a
-              class="border-bottom"
-              href="https://themewagon.com"
-              target="_blank"
-              >ThemeWagon</a
-            >
-          </div>
+    <div class="container-fluid copyright text-light py-4 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a href="#">moodcake.com</a>, All Right Reserved.
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    Designed By <a href="https://htmlcodex.com">HTML Codex</a>
+                    <br />Distributed By:
+                    <a class="border-bottom" href="https://themewagon.com" target="_blank">ThemeWagon</a>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
     <!-- Copyright End -->
 
     <!-- Back to Top -->
-    <a
-      href="#"
-      class="btn btn-primary rounded-pill py-3 px-5 btn-lg-square rounded-circle back-to-top"
-      ><i class="bi bi-arrow-up"></i
-    ></a>
+    <a href="#" class="btn btn-primary rounded-pill py-3 px-5 btn-lg-square rounded-circle back-to-top"><i
+            class="bi bi-arrow-up"></i></a>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -933,5 +809,6 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-  </body>
+</body>
+
 </html>

@@ -65,7 +65,7 @@
 
     // Testimonials carousel
     $(".testimonial-carousel").owlCarousel({
-        autoplay: true,          // aktifkan auto geser
+      autoplay: true,          // aktifkan auto geser
       autoplayTimeout: 3000,   // jeda 3 detik
       autoplayHoverPause: true,// pause kalau mouse hover
       loop: true,              // loop terus

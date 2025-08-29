@@ -65,30 +65,28 @@
 
     // Testimonials carousel
     $(".testimonial-carousel").owlCarousel({
-        autoplay: false,
-        smartSpeed: 1000,
-        margin: 25,
-        loop: true,
-        center: true,
-        dots: false,
-        nav: true,
-        navText : [
+        autoplay: true,          // aktifkan auto geser
+      autoplayTimeout: 3000,   // jeda 3 detik
+      autoplayHoverPause: true,// pause kalau mouse hover
+      loop: true,              // loop terus
+      margin: 25,
+      nav: true,
+      dots: false,
+      smartSpeed: 1000,
+      navText : [
             '<i class="bi bi-chevron-left"></i>',
             '<i class="bi bi-chevron-right"></i>'
         ],
-        responsive: {
-            0:{
-                items:1
-            },
-            768:{
-                items:2
-            },
-            992:{
-                items:3
-            }
+      responsive:{
+        0:{ items:1 },
+        768:{ items:2 },
+        992:{ items:3 }
         }
     });
 
     
 })(jQuery);
+
+
+
 

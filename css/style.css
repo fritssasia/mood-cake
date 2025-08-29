@@ -304,14 +304,15 @@ li {
     margin-right:6px;
 }
 
-/* #menu  .best-seller-tag-wrapper {
-    padding-top: 37px;
-} */
-
 #menu .best-seller-tag {
     background-color: #f7b938;
     color: #FFFFFF;
     
+}
+
+#menu img {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
 }
 
 /* .product-item:hover {
@@ -439,7 +440,6 @@ li {
     color: var(--primary);
     background: var(--dark);
 }
-
 
 /*** Footer ***/
 .footer .btn.btn-link {
